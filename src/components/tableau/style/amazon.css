@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 99%;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 99%;
+  margin: auto;
+  margin-top: 2%;
+}
+.cards {
+  width: 250px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+  transition: transform 1s;
+}
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+  transform: scale(1.07);
+  box-shadow: 1px 1px 5px #00000077;
+}
+
+.image_box img {
+  width: 300px;
+  height: 200px;
+}
+
+.details {
+  margin: 20px;
+}
+
+.details p:nth-child(1) {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+  margin-bottom: 2px;
+}
+.details p:nth-child(3) {
+  font-weight: bolx;
+  margin-bottom: 2px;
+  color: grey;
+}
+
+.details button{
+  border: 1px solid rgba(96, 44, 131, 0.906);
+  padding: 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.details button:hover{
+  background-color: rgba(96, 44, 131, 0.906);
+  color: white;
+}
+
+.pharma{
+  border: 1px solid rgb(105, 104, 106);
+  padding: 15px;
+  width: 80%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.pharma:focus{
+  border: 1px solid rgba(96, 44, 131, 0.906);
+}
+
